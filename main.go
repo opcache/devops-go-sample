@@ -6,7 +6,7 @@ import (
 )
 
 func HelloWorld(res http.ResponseWriter, req *http.Request) {
-	fmt.Fprint(res, "HTTP1")
+	fmt.Fprint(res, "HTTP2")
 }
 
 func main() {
